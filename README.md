@@ -8,19 +8,29 @@ Before you begin, ensure you have met the following requirements:
 2. npm or yarn package manager installed
 3. Setup Instructions
 
-  1. Set up Database
+
+Next step, navigate to server folder
+
+  1. Install npm
+     # npm i
+     
+     
+  2. Set up Database
     To create databases, migrate schema, and seed initial data, run the following command:
 
-# npm run setup-db
+      # npm run setup-db
 
 
-2. Start Server
-To start the server in development mode, use:
+  3. Start Server
+    To start the server in development mode, use:
 
-# npm run dev
-This command will start the server at http://localhost:3000 by default.
+      # npm run dev
+    This command will start the server at http://localhost:3000 by default.
 
-3. Start Client
+
+Next, Navigate to client folder
+1. install npm
+   # npm i
 In a separate terminal or shell, navigate to the client directory and run the following command to start the client application:
 
 
