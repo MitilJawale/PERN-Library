@@ -1,0 +1,53 @@
+.dashboard-container {
+  position: relative;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px; 
+  height: 100%;
+  background-color: #A18167; 
+  z-index: 999; 
+
+
+}
+
+
+.content {
+  transition: margin-left 0.3s;
+}
+
+.shifted {
+  margin-left: 80px; 
+}
+
+
+.search-bar-container {
+  transition: margin-left 0.3s ease; 
+}
+
+
+.studentbg {
+  background-color: #F2E5D9;
+}
+
+.image-collaborator {
+  display: flex;
+}
+
+.book-rating {
+  cursor: pointer;
+  background-color: #efddce;
+  text-align: center;
+}
+
+.book {
+  color: #A18167; /* Default color for inactive books */
+}
+
+.book.active {
+  color: black; /* Color for active (selected) books */
+}
+

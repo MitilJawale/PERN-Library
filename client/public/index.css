@@ -1,0 +1,10 @@
+body{
+  background-color: #F2E5D9;
+}
+
+.loginDetail{
+  background-image: url('loginpage.png'); 
+  background-size: cover; 
+  background-position: center; 
+  min-height: 100vh;
+}

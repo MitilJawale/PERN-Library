@@ -1,0 +1,98 @@
+
+
+
+.toggle-button {
+  background-color: #A18167;
+  color: white;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  padding: 14px;
+  position:fixed;
+  top: 0px; 
+  left: 0px; 
+  height: fit-content;
+  width: fit-content;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 4px;
+}
+
+
+.sidebar-visible {
+  left: 0;
+}
+
+
+.sidebar-button {
+  background-color: #96AD84;
+  color: rgb(206, 16, 16);
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-button:hover {
+  background-color: #96AD84;
+}
+
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.head-sidebar{
+  margin: 15px;
+  font-size: 30px;
+  color: aliceblue;
+  font-family: cursive;
+
+}
+.close-icon:hover {
+  color: #96AD84;
+}
+
+.plus-icon::before {
+  content: '\002B'; 
+  font-size: 1.5em;
+}
+
+.tick-icon::before {
+  content: '\2713'; 
+  font-size: 1.5em;
+}
+
+
+.filter-container {
+  margin: 15px;
+  color: white;
+}
+
+
+.category-container {
+margin-left: 35px;
+
+}
+
+
+.clearBtn{
+  background-color: #806151;
+  border-radius: 5px;
+  border-style: hidden;
+  padding: 5px;
+}
+
+.form-check-input:checked {
+  background-color: #806151;
+  border-color: #634b3f;
+}

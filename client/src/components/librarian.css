@@ -1,0 +1,84 @@
+.librarianAvailablebtn{
+  background-color: #F7DDc1;
+  border-style: hidden;
+  padding: 7px;
+  border-radius: 5px;
+}
+.deletebtn{
+  background-color: #6c5441;
+  border-style: hidden;
+  padding: 7px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 5px;
+  color:white
+}
+.editbtn{
+  background-color: #c99e7a;
+  border-style: hidden;
+  padding: 7px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 5px;
+  color:white
+}
+.card-header{
+  background-color: #d2b59d;
+  color:#333a1f
+}
+
+.form-control {
+  background-color: #c8baaf;
+}
+.table{
+  --bs-table-border-color: #9f8672;
+  --bs-table-color: #6c5441;
+}
+
+.returnbtn{
+  background-color: #8c7a6c;
+  border-style: hidden;
+  padding: 7px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  border-radius: 5px;
+  color:white
+}
+
+.returnbtn:hover{
+  background-color: #d66c20;
+}
+
+
+
+.modal-body{
+  background-color: #efddce;
+
+}
+
+.modal-header{
+  background-color: #6c5441;
+  color:white
+
+}
+.modal-footer{
+  background-color: #efddce;
+
+}
+.textcolour{
+  color: #6c5441;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #6c5441;
+  border-color: #6c5441;
+
+}
+
+
+.btn-secondary:hover {
+  filter: brightness(90%); /* Adjust brightness to your preference */
+}
+

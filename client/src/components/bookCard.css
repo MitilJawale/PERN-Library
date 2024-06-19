@@ -1,0 +1,99 @@
+
+
+.card {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: #f0f0f0;
+
+}
+
+.book-image {
+  width: 16%;
+  height: 70%;
+  margin-right: 10px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Apply transition effect */
+
+}
+
+.book-image:hover {
+  transform: scale(1.1); 
+  cursor: pointer;
+}
+
+.card-body {
+  display: flex; 
+  flex-direction: column; 
+  padding: 20px;
+  flex: 1;
+  background-color: #e2d5ca;
+
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+  transition: transform 0.3s ease; 
+}
+
+
+.card-title:hover {
+  transform: scale(1.05); 
+  cursor: pointer;
+}
+
+.card-description {
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: start;
+  width: 80%;
+  max-lines: 3;
+  transition: transform 0.3s ease; 
+}
+
+.card-description:hover {
+  transform: scale(1.05); 
+  cursor: pointer;
+}
+
+
+.author-category {
+  text-align: start;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.checkoutbtn{
+  margin: 10px;
+  background-color: #806151;
+  color:white;
+  padding: 7px;
+  border-radius: 4px;
+  border-style:hidden;
+}
+
+.unavailablebtn{
+  margin: 10px;
+  background-color: #F7DDc1;
+  color:black;
+  padding: 7px;
+  border-radius: 4px;
+  border-style:hidden;
+}
+
+
+
+
+
