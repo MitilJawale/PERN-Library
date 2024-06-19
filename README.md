@@ -41,6 +41,9 @@ Additional Commands
 Running Tests
 To run tests for the server or client, use the respective commands:
 
+Create a testing database using 
+
+# CREATE DATABASE database_test;
 
 # npm test     
 
