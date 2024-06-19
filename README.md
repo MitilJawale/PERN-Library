@@ -1,5 +1,14 @@
 # Getting Started with Client and Server
+# Login Credentials for Students
+  dave@gmail.com
+  pwd:  Dave@123
 
+  mitil@gmail.com
+   pwd:  Mitil@123
+
+# Login Credentials for Librarian
+  librarian@gmail.com
+   pwd:  123456
 
 Prerequisites
 Before you begin, ensure you have met the following requirements:
