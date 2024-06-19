@@ -10,7 +10,7 @@
   librarian@gmail.com
    pwd:  123456
 
-Prerequisites
+# Prerequisites
 Before you begin, ensure you have met the following requirements:
 
 1. Node.js installed
