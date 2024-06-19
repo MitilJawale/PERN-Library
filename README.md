@@ -7,7 +7,8 @@ Before you begin, ensure you have met the following requirements:
 1. Node.js installed
 2. npm or yarn package manager installed
 3. Setup Instructions
-  i. Set up Database
+
+  1. Set up Database
     To create databases, migrate schema, and seed initial data, run the following command:
 
 # npm run setup-db
@@ -31,6 +32,7 @@ Running Tests
 To run tests for the server or client, use the respective commands:
 
 
-# npm test      # Runs tests for server
+# npm test     
+
 
 
